@@ -31,7 +31,9 @@ export default function App()
       </header>
 
       <main>
-        <Home filterTitle={filteredTitle} data={data} />
+        <Routes>
+          <Route path="/codelandia-1/" element={<Home filterTitle={filteredTitle} data={data} />} />
+        </Routes>
       </main>
 
       <header></header>

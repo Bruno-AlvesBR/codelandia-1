@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Content } from '../layout/Home-styled';
 
 export default function Home({ data, filterTitle }) 
 {
-    const [clickHeart, setClickHeart] = useState(false)
-    const toggleHeart = () => setClickHeart(!clickHeart)
     return (
         <Content>
             {filterTitle.length !== 0 ? (
@@ -14,7 +12,7 @@ export default function Home({ data, filterTitle })
                             <div key={key} className="card">
                                 <header>
                                     <p>{item.date}</p>
-                                    <i onClick={toggleHeart} style={clickHeart ? {background: "red"} : {background: "white"}} className={clickHeart ? `${item.src1}` : `${item.src2}`} />
+                                    <i className={item.src1} />
                                 </header>
                                 <main>
                                     <h1>{item.title}</h1>
@@ -31,7 +29,7 @@ export default function Home({ data, filterTitle })
                             <div key={key} className="card">
                                 <header>
                                     <p>{item.date}</p>
-                                    <i onClick={toggleHeart} style={clickHeart ? {background: "red"} : {background: "white"}} className={clickHeart ? `${item.src1}` : `${item.src2}`} />
+                                    <i className={item.src1} />
                                 </header>
                                 <main>
                                     <h1>{item.title}</h1>
