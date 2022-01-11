@@ -1,7 +1,7 @@
 import React from 'react';
 import { Content } from '../layout/Navbar-styled';
 
-export default function Navbar() 
+export default function Navbar({ onChangeSearch }) 
 {
     return (
         <Content>
@@ -13,7 +13,7 @@ export default function Navbar()
                     </header>
                     <main>
                         <i className="bx bx-search-alt-2" />
-                        <input placeholder='Pesquisar no blog' type="text"  />
+                        <input onChange={onChangeSearch} placeholder='Pesquisar no blog' type="text"  />
                     </main>
                 </div>
             </nav>
