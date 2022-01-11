@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/codelandia-1/static/css/main.1896a67b.css",
-    "main.js": "/codelandia-1/static/js/main.25afae65.js",
+    "main.js": "/codelandia-1/static/js/main.c200ea91.js",
     "index.html": "/codelandia-1/index.html",
     "main.1896a67b.css.map": "/codelandia-1/static/css/main.1896a67b.css.map",
-    "main.25afae65.js.map": "/codelandia-1/static/js/main.25afae65.js.map"
+    "main.c200ea91.js.map": "/codelandia-1/static/js/main.c200ea91.js.map"
   },
   "entrypoints": [
     "static/css/main.1896a67b.css",
-    "static/js/main.25afae65.js"
+    "static/js/main.c200ea91.js"
   ]
 }
