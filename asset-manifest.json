@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/codelandia-1/static/css/main.073c9b0a.css",
-    "main.js": "/codelandia-1/static/js/main.0f59080e.js",
-    "static/js/787.042bbc5d.chunk.js": "/codelandia-1/static/js/787.042bbc5d.chunk.js",
-    "static/media/logo.svg": "/codelandia-1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/codelandia-1/static/css/main.1896a67b.css",
+    "main.js": "/codelandia-1/static/js/main.2a364059.js",
     "index.html": "/codelandia-1/index.html",
-    "main.073c9b0a.css.map": "/codelandia-1/static/css/main.073c9b0a.css.map",
-    "main.0f59080e.js.map": "/codelandia-1/static/js/main.0f59080e.js.map",
-    "787.042bbc5d.chunk.js.map": "/codelandia-1/static/js/787.042bbc5d.chunk.js.map"
+    "main.1896a67b.css.map": "/codelandia-1/static/css/main.1896a67b.css.map",
+    "main.2a364059.js.map": "/codelandia-1/static/js/main.2a364059.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0f59080e.js"
+    "static/css/main.1896a67b.css",
+    "static/js/main.2a364059.js"
   ]
 }
