@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const Content = styled.section`
     margin: 50px 0;
     .container-cards 
-    {
-        width: 100%;
-        max-width: 620px;
+    { 
         display: flex;
         flex-wrap: wrap;
         height: auto;
+        width: 100%;
+        max-width: 700px;
         margin: auto;
         .card 
         {

@@ -14,3 +14,15 @@ body
   font-size: 62.5%;
   background-color: #aaaaaa35;
 }
+header
+{
+  background: linear-gradient(to right, #574AE8, #3EA1DB);
+}
+main 
+{
+  width: 100%;
+  max-width: 1550px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
