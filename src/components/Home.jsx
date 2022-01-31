@@ -1,45 +1,45 @@
-import React from 'react'
-import { Content } from '../layout/Home-styled';
+import React, { 
+    useState 
+} from 'react'
+import { 
+    ContentHome
+} from '../layout/Home-styled';
 
-export default function Home({ data, filterTitle }) 
+export default function Home(props) 
 {
     return (
-        <Content>
-            {filterTitle.length !== 0 ? (
-                <div className="container-cards">
-                    {filterTitle.map((item, key) =>{
-                        return(
-                            <div key={key} className="card">
-                                <header>
-                                    <p>{item.date}</p>
-                                    <i className={item.src1} />
-                                </header>
-                                <main>
-                                    <h1>{item.title}</h1>
-                                    <p>{item.text}</p>
-                                </main>
-                            </div>
-                        )
-                    })}
-                </div>
+        <ContentHome>
+            {props.filterTitle.length !== 0 ? (
+                props.filterTitle.map((item, key) =>{
+                    return(
+                        <div key={key} className="card">
+                            <label className='header'>
+                                <p>{item.date}</p>
+                                <i className={item.src1} />
+                            </label>
+                            <label className='main'>
+                                <h1>{item.title}</h1>
+                                <p>{item.text}</p>
+                            </label>
+                        </div>
+                    )
+                })
             ) : (
-                <div className="container-cards">
-                    {data.map((item, key) =>{
-                        return(
-                            <div key={key} className="card">
-                                <header>
-                                    <p>{item.date}</p>
-                                    <i className={item.src1} />
-                                </header>
-                                <main>
-                                    <h1>{item.title}</h1>
-                                    <p>{item.text}</p>
-                                </main>
-                            </div>
-                        )
-                    })}
-                </div>
+                props.data.map((item, key) =>{
+                    return(
+                        <div key={key} className="card">
+                            <label className='header'>
+                                <p>{item.date}</p>
+                                <i className={item.src1} />
+                            </label>
+                            <label className='main'>
+                                <h1>{item.title}</h1>
+                                <p>{item.text}</p>
+                            </label>
+                        </div>
+                    )
+                })
             )}
-        </Content>
+        </ContentHome>
     )
 }
